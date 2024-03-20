@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+html,body{
+	width:100%;
+	height: 100%;
+}
+
+body{
+	background-image: url(../img/yuqibea3.jpeg)
+}
+
+#box1{
+	width: 186px;
+	height: 60px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+}
+#s1{
+	width: 60px;
+	height: 60px;
+	background-color: blue;
+	display: inline-block;
+	margin: 1px;
+	cursor: pointer;
+	position: absolute;  /* 子绝父相 */
+	left: 0;
+	top: 0;
+}
+#s2{
+	width: 60px;
+	height: 60px;
+	background-color:green;
+	display: inline-block;
+	margin: 1px;
+	cursor: pointer;
+	position: absolute;
+	left: 62px;
+	top: 0;
+}
+#s3{
+	width: 60px;
+	height: 60px;
+	background-color: pink;
+	display: inline-block;
+	margin: 1px;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
